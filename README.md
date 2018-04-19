@@ -24,6 +24,13 @@ git commit -m "tu primer commit"
 
 git push origin master
 
+
+para conectarse a un nuevo repositorio
+git remote add origin nombre_ssh_repositorio
+
+traer los archivos de un repositorio
+git pull origin master
+
 /GIT desde 0 - Por @klinsmannf****/
 configuración
 Descarga git para OSX
@@ -56,4 +63,4 @@ Si por otro lado quieres deshacerte de todos los cambios locales y commits, pued
 datos útiles
 Interfaz gráfica por defecto gitk colores especiales para la consola git config color.ui true mostrar sólo una línea por cada commit en la traza git config format.pretty oneline agregar archivos de forma interactiva git add -i
 enlaces & recursos
-clientes gráficos GitX (L) (OSX, open source) Tower (OSX) Source Tree (OSX, free) GitHub for Mac (OSX, free) guías Git Community Book Pro Git Think like a git GitHub Help A Visual Git Guide 
+clientes gráficos GitX (L) (OSX, open source) Tower (OSX) Source Tree (OSX, free) GitHub for Mac (OSX, free) guías Git Community Book Pro Git Think like a git GitHub Help A Visual Git Guide
